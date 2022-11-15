@@ -1,0 +1,61 @@
+body{
+    background: rgb(242, 225, 205);
+}
+
+header{
+    background-color: rgb(242, 225, 205);
+    width: 100%;
+    height: auto;
+    border-bottom: 10px solid;
+    font-family: 'Kanit', sans-serif;
+    border-bottom: solid #f0ad4e 5px;
+}
+
+.menu{
+    padding: 1% 0;
+    font-size: 18px;
+}
+
+.menu a{
+    margin-left: 3%;
+    text-decoration: none;
+    color: #9a1032; 
+}
+
+.menu :hover{
+    font-weight: bold;
+}
+
+.menu img{
+    width: 7%;
+    height: auto;
+    margin-left: 2%;
+    border: 0;
+}
+
+.banner img{
+    height: auto;
+    width: 100%;
+    border-top: solid #f0ad4e 5px;
+}
+
+/* BODY */
+
+.card-group{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.card-group :hover{
+    cursor: pointer;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card :hover{
+    text-decoration: underline;
+}
