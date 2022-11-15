@@ -1,3 +1,12 @@
+/* PERSONALIZADO */
+
+@font-face {
+font-family: Qatar22;
+src: url(/fuenteQatar/qatar2022-arabic-heavy.ttf);
+}
+
+/* HOJA DE ESTILOS */
+
 body{
     background: rgb(242, 225, 205);
 }
@@ -64,4 +73,6 @@ header{
 
 .text-center{
     color: #9a1032;
+    font-family: Qatar22;
+    font-size: 2em;
 }
