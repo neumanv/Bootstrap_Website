@@ -59,3 +59,9 @@ header{
 .card :hover{
     text-decoration: underline;
 }
+
+/*CUENTA ATRÁS*/
+
+.text-center{
+    color: #9a1032;
+}
