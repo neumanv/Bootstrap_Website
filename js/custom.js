@@ -2,21 +2,20 @@
 
 document.addEventListener('DOMContentLoaded', () => { 
 
-    //===
     // VARIABLES
-    //===
-    const DATE_TARGET = new Date('11/20/2022 05:00 AM');
+    let DATE_TARGET = new Date('12/17/2022 04:00 PM');
+
     // DOM for render
-    const SPAN_DAYS = document.querySelector('span#days');
-    const SPAN_HOURS = document.querySelector('span#hours');
-    const SPAN_MINUTES = document.querySelector('span#minutes');
-    const SPAN_SECONDS = document.querySelector('span#seconds');
+    let SPAN_DAYS = document.querySelector('span#days');
+    let SPAN_HOURS = document.querySelector('span#hours');
+    let SPAN_MINUTES = document.querySelector('span#minutes');
+    let SPAN_SECONDS = document.querySelector('span#seconds');
     
     //Cálculos en ms (millisegundos)
-    const MILLISECONDS_OF_A_SECOND = 1000;
-    const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
-    const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
-    const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
+    let MILLISECONDS_OF_A_SECOND = 1000;
+    let MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
+    let MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
+    let MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
 
     //===
     // FUNCTIONS
@@ -24,12 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateCountdown() {
         //Cálculos de tiempo
-        const NOW = new Date()
-        const DURATION = DATE_TARGET - NOW;
-        const REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
-        const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
-        const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
-        const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
+        let NOW = new Date()
+        let DURATION = DATE_TARGET - NOW;
+        let REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
+        let REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
+        let REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
+        let REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
 
         //Render
         SPAN_DAYS.textContent = REMAINING_DAYS;
