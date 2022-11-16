@@ -25,6 +25,8 @@ body{
     background: rgb(242, 225, 205);
 }
 
+/* HEADER */
+
 header{
     width: 100%;
     height: auto;
@@ -32,33 +34,38 @@ header{
 }
 
 .principal{
-    padding: 10px;
-    display: block;
+    background-color: var(--principal);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
 }
 
 .principal a{
     text-decoration: none;
-    color: var(--principal);
-}
-
-.principal ul {
-    list-style-type: none;
-}
-
-.principal li :hover{
-    background-color: var(--principal);
     color: rgb(242, 225, 205);
 }
 
-.principal ul li {
+.principal p{
+    margin: 0;
     list-style-type: none;
-    float: left;
-    text-align: center;
-    padding-left: 1%;
+    padding: 0 5%;
 }
 
-.principal img{
-    width: 10%;
+.principal p :hover{
+    text-decoration: underline;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid var(--bordes) 5px;
+}
+
+.top img{
+    display: block;
+    margin: auto;
+    width: 20%;
     height: auto;
 }
 
