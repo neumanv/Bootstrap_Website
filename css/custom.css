@@ -1,13 +1,22 @@
 /* PERSONALIZADO */
 
 @font-face {
-font-family: Qatar22;
+font-family: "Qatar22";
 src: url(/fuenteQatar/qatar2022-arabic-heavy.ttf);
 }
 
 :root{
     --principal: #9a1032;
     --bordes: #f0ad4e;
+}
+
+.bg-primary{
+    --bs-bg-opacity: 1;
+    background-color:#9a1032 !important;
+}
+
+.ff-qatar{
+    font-family: "Qatar22";
 }
 
 /* HOJA DE ESTILOS */
@@ -21,7 +30,7 @@ header{
     width: 100%;
     height: auto;
     border-bottom: 10px solid;
-    font-family: Qatar22;
+    font-family: "Qatar22";
     border-bottom: solid var(--bordes) 5px;
 }
 
@@ -60,7 +69,7 @@ header{
 .noticias{
     color: var(--principal);
     padding: 10px;
-    font-family: Qatar22;
+    font-family: "Qatar22";
 }
 
 .container{
@@ -78,7 +87,7 @@ header{
 }
 
 .card-title{
-    font-family: Qatar22;
+    font-family: "Qatar22";
 }
 
 .card{
@@ -102,7 +111,7 @@ header{
 
 .text-center{
     color: rgb(242, 225, 205);
-    font-family: Qatar22;
+    font-family: "Qatar22";
     font-size: 2em;
     background-color: var(--principal);
     padding-top: 14px;
@@ -116,14 +125,14 @@ header{
     margin-top: 4%;
 }
 
-.copa p {
-    text-align: left;
+.cuadro{
+    border: var(--bordes) solid 5px;
 }
 
-.copa img{
-    width: 10%;
-    height: auto;
+.display{
+    font-family: "Qatar22";
 }
+
 
 /* FOOTER */
 
@@ -136,7 +145,7 @@ header{
     color: rgb(242, 225, 205)  !important;
     margin-bottom: 0;
     padding-bottom: 0;
-    font-family: Qatar22;
+    font-family: "Qatar22";
     border-top: solid var(--bordes) 5px;
     text-decoration: none;
 }

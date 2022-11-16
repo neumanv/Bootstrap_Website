@@ -38,6 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     updateCountdown();
-    //RReiniciar cada segundo
+    //Reiniciar cada segundo
     setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
 });
