@@ -55,6 +55,13 @@ header{
 
 /* BODY */
 
+.noticias{
+    color: var(--principal);
+    margin-top: 3%;
+    padding: 10px;
+    font-family: Qatar22;
+}
+
 .container{
     margin-bottom: 4%;
 }
@@ -81,14 +88,66 @@ header{
     text-decoration: underline;
 }
 
+.enlace{
+    color: black;
+    text-decoration: none;
+}
+
+.card-text :hover{
+    color: black;
+}
+
 /*CUENTA ATRÁS*/
 
 .text-center{
-    color: white;
+    color: rgb(242, 225, 205);
     font-family: Qatar22;
     font-size: 2em;
     background-color: var(--principal);
     padding-top: 14px;
     border-top: var(--bordes) solid 5px;
     border-bottom: var(--bordes) solid 5px;
+}
+
+/* FOOTER */
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.container-fluid{
+    overflow: hidden; 
+    margin-top: 1%;
+    background: var(--principal) ;
+    color: rgb(242, 225, 205)  !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Qatar22;
+    border-top: solid var(--bordes) 5px;
+    text-decoration: none;
+}
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color: var(--bordes) !important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
 }
