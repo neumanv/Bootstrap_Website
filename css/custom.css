@@ -5,6 +5,11 @@ font-family: Qatar22;
 src: url(/fuenteQatar/qatar2022-arabic-heavy.ttf);
 }
 
+:root{
+    --principal: #9a1032;
+    --bordes: #f0ad4e;
+}
+
 /* HOJA DE ESTILOS */
 
 body{
@@ -16,19 +21,19 @@ header{
     width: 100%;
     height: auto;
     border-bottom: 10px solid;
-    font-family: 'Kanit', sans-serif;
-    border-bottom: solid #f0ad4e 5px;
+    font-family: Qatar22;
+    border-bottom: solid var(--bordes) 5px;
 }
 
 .menu{
     padding: 1% 0;
-    font-size: 18px;
 }
 
 .menu a{
     margin-left: 3%;
     text-decoration: none;
-    color: #9a1032; 
+    font-size: 20px;
+    color: var(--principal); 
 }
 
 .menu :hover{
@@ -36,7 +41,7 @@ header{
 }
 
 .menu img{
-    width: 7%;
+    width: 8%;
     height: auto;
     margin-left: 2%;
     border: 0;
@@ -45,13 +50,16 @@ header{
 .banner img{
     height: auto;
     width: 100%;
-    border-top: solid #f0ad4e 5px;
+    border-top: solid var(--bordes) 5px;
 }
 
 /* BODY */
 
+.container{
+    margin-bottom: 4%;
+}
+
 .card-group{
-    margin-top: 3%;
     width: 100%;
     height: auto;
     padding: 10px;
@@ -59,6 +67,10 @@ header{
 
 .card-group :hover{
     cursor: pointer;
+}
+
+.card-title{
+    font-family: Qatar22;
 }
 
 .card{
@@ -72,8 +84,11 @@ header{
 /*CUENTA ATRÁS*/
 
 .text-center{
-    color: #9a1032;
+    color: white;
     font-family: Qatar22;
     font-size: 2em;
-    border: #9a1032 solid 5px;
+    background-color: var(--principal);
+    padding-top: 14px;
+    border-top: var(--bordes) solid 5px;
+    border-bottom: var(--bordes) solid 5px;
 }
