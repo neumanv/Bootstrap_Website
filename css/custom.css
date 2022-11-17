@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Qatar22";
-    src: url(/fuenteQatar/qatar2022-arabic-heavy.ttf);
+    src: url(../fuenteQatar/qatar2022-arabic-heavy.ttf);
 }
 
 :root {
