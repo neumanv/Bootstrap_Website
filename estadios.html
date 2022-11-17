@@ -183,9 +183,27 @@
             </div>
         </footer>
     </div>
-    <!-- NO CLICK DERECHO -->
+
+    <!-- SCRIPTS FINALES -->
     <script type='text/javascript'>
-        document.oncontextmenu = function(){return false}
+
+        //NO CLICK DERECHO
+        document.oncontextmenu = function () {
+            return false
+        }
+
+        //------------------------------------------------------  
+
+        //NO PERMITE COPIAR
+        document.addEventListener("contextmenu", function (event) {
+            event.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (event) {
+            //AL COPIAR EL TEXTO MUESTRA EL SIGUIENTE MENSAJE
+            event.clipboardData.setData("text/plain", "No se puede copiar");
+            event.preventDefault();
+        }, false);
     </script>
 </body>
 </html>

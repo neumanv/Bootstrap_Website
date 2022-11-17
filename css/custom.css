@@ -1,5 +1,15 @@
 /* PERSONALIZADO */
 
+* {
+    user-select: none;
+  }
+  *::selection {
+    background: none;
+  }
+  *::-moz-selection {
+    background: none;
+  }
+
 @font-face {
     font-family: "Qatar22";
     src: url(../fuenteQatar/qatar2022-arabic-heavy.ttf);
@@ -188,6 +198,15 @@ h3 {
 
 .list-unstyled :hover {
     cursor: pointer;
+    text-decoration: underline;
+}
+
+#ghub{
+    text-decoration: none;
+    color: rgb(242, 225, 205);
+}
+
+#ghub a :hover{
     text-decoration: underline;
 }
 
