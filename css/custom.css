@@ -206,7 +206,7 @@ h3 {
     color: rgb(242, 225, 205);
 }
 
-#ghub a :hover{
+#ghub :hover{
     text-decoration: underline;
 }
 
