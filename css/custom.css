@@ -61,7 +61,7 @@ header {
     display: flex;
     justify-content: center;
     border-bottom: solid var(--bordes) 5px;
-    background-color: white;
+    background-color: rgb(242, 225, 205);
 }
 
 .top img {
@@ -188,6 +188,7 @@ h3 {
 
 .list-unstyled :hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 /* ESTADIOS */
@@ -232,4 +233,11 @@ h3 {
     flex: 1 1 auto;
     padding: 1em 1em 0;
     color: var(--bs-card-color);
+}
+
+/* ESTADIOS */
+
+#estadio-principal :hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
