@@ -237,6 +237,11 @@ h3 {
 
 /* ESTADIOS */
 
+#estadio-importante{
+    color: var(--principal);
+    padding-bottom: 10px;
+}
+
 #estadio-principal :hover{
     text-decoration: underline;
     cursor: pointer;
