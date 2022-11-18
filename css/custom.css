@@ -273,3 +273,22 @@ h3 {
 #car-principales :hover{
     cursor: pointer;
 }
+
+/* EQUIPOS */
+
+    /* CARROUSEL */
+    
+.demo{
+    width: 60%;
+    margin: 0 auto
+}
+  
+img{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item h5, p{
+    font-family: "Qatar22";
+    color: var(--principal);
+}
