@@ -18,6 +18,7 @@
 :root {
     --principal: #9a1032;
     --bordes: #f0ad4e;
+    --arena: #f2e1cd;
 }
 
 .bg-primary {
@@ -32,7 +33,7 @@
 /* HOJA DE ESTILOS */
 
 body {
-    background: rgb(242, 225, 205);
+    background: var(--arena);
 }
 
 /* HEADER */
@@ -54,7 +55,7 @@ header {
 
 .principal a {
     text-decoration: none;
-    color: rgb(242, 225, 205);
+    color: var(--arena);
 }
 
 .principal p {
@@ -171,7 +172,7 @@ header {
     overflow: hidden;
     margin-top: 1%;
     background: var(--principal);
-    color: rgb(242, 225, 205) !important;
+    color: var(--arena) !important;
     margin-bottom: 0;
     padding-bottom: 0;
     font-family: "Qatar22";
@@ -203,7 +204,7 @@ h3 {
 
 #ghub{
     text-decoration: none;
-    color: rgb(242, 225, 205);
+    color: var(--arena);
 }
 
 #ghub :hover{
@@ -276,8 +277,8 @@ h3 {
 
 /* EQUIPOS */
 
-    /* CARROUSEL */
-    
+/* CARROUSEL */
+
 .demo{
     width: 60%;
     margin: 0 auto
@@ -288,7 +289,25 @@ img{
     height: auto;
 }
 
-.carousel-item h5, p{
+.carousel-item h5{
     font-family: "Qatar22";
     color: var(--principal);
+}
+
+.arabia h5{
+    color: var(--arena);
+}
+
+#cambio-bandera{
+    color: var(--principal);
+}
+
+.arabia p{
+    color: var(--arena);
+}
+
+/* FIN CARROUSEL */
+.pres-equipos{
+    font-family: "Qatar22";
+    font-size: 20px;
 }

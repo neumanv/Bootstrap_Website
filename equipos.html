@@ -28,8 +28,15 @@
 
     <!-- ESTRUCTURA DEL BODY -->
 
-    <!-- CAROUSEL -->
+    <div class="container">
+        <p class="pres-equipos">EN QATAR 2022 PARTICIPAN SELECCIONES DE TODOS LOS CONTINENTES.
+            NO ES ÚNICAMENTE UN TORNEO DEPORTIVO, ES UNA FIESTA MULTICULTURAL DONDE LOS AFICIONADOS DISFRUTAN DE TODOS
+            LOS PARTIDOS Y PUEDEN COMPARTIR MOMENTOS EXTRADEPORTIVOS QUE NUNCA SE OLVIDAN. SEAN BIENVENIDOS A QATAR
+            2022, UN EVENTO MÁGICO Y FUTURISTA.
+        </p>
+    </div>
 
+    <!-- CAROUSEL IMPORTANTES -->
     <div class="container">
         <h1 class="noticias">LAS MÁS IMPORTANTES</h1>
         <div id="carouselExampleIndicators" class="carousel slide demo" data-bs-ride="carousel">
@@ -43,40 +50,83 @@
             </div>
             <div class="carousel-inner rounded">
                 <div class="carousel-item">
-                    <img src="img/brasil.png" class="d-block w-5" alt="Los Angeles">
+                    <img src="img/brasil.png" class="d-block w-5">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>BRASIL</h5>
-                        <p>5 veces campeona del mundo</p>
+                        <p id="cambio-bandera">5 veces campeona del mundo</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/alemania.png"
-                        class="d-block w-100" alt="Chicago">
+                    <img src="img/alemania.png" class="d-block w-100">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>ALEMANIA</h5>
-                        <p>4 veces campeona del mundo</p>
+                        <p id="cambio-bandera">4 veces campeona del mundo</p>
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img src="img/francia.png" class="d-block w-100" alt="New York">
+                    <img src="img/francia.png" class="d-block w-100">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>FRANCIA</h5>
-                        <p>2 veces campeona del mundo</p>
+                        <p id="cambio-bandera">2 veces campeona del mundo</p>
                     </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
+    <!-- FIN CARRUSEL IMPORTANTES -->
+
+    <!-- CAROUSEL PEORES -->
+    <div class="container">
+        <h1 class="noticias">LAS MÁS DÉBILES</h1>
+        <div id="second-carousel" class="carousel slide demo" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#second-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria- label="Slide 1"></button>
+                <button type="button" data-bs-target="#second-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#second-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded">
+                <div class="carousel-item">
+                    <img src="img/arabia.jpg" class="d-block w-5">
+                    <div class="arabia carousel-caption d-none d-md-block">
+                        <h5>ARABIA SAUDÍ</h5>
+                        <p>51 en el ranking FIFA</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/qatar-bandera.png" class="d-block w-5">
+                    <div class="arabia d-none carousel-caption d-md-block">
+                        <h5>QATAR</h5>
+                        <p>50 en el ranking fifa</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/tunez.png" class="d-block w-5">
+                    <div class="arabia carousel-caption d-none d-md-block">
+                        <h5>TÚNEZ</h5>
+                        <p>30 en el ranking FIFA</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#second-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#second-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <!-- FIN CARRUSEL PEORES -->
 
     <!-- FOOTER -->
     <div class="container-fluid justify-content-center">
