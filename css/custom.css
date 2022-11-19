@@ -220,6 +220,12 @@ li a{
     text-decoration: underline;
 }
 
+#form-footer{
+    background-color: var(--arena);
+    border: solid var(--bordes);
+    border-radius: 7px;
+}
+
 /* ESTADIOS */
 
 .wrapper{
