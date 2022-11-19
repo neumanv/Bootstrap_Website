@@ -316,7 +316,31 @@ img{
 }
 
 /* FIN CARROUSEL */
+
 .pres-equipos{
     font-family: "Qatar22";
     font-size: 20px;
+}
+
+/* VIDEO */
+
+#colc-video{
+    display: flex;
+    justify-content: center;
+}
+
+.video-qatar{
+    border: var(--principal) solid 4px;
+}
+
+/* FIN VIDEO */
+
+.table{
+    justify-content: center;
+    text-align: center;
+    border-color: var(--arena);
+}
+
+.table th{
+    font-family: "Qatar22";
 }
