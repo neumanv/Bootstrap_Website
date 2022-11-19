@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupos Qatar 2022</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/fav_icon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <a href="index.html"><img class="justify-content-center" src="img/fuentes.png"></a>
+        </div>
+        <div class="principal">
+            <!-- DISPONIBLE -->
+            <p><a href="equipos.html">EQUIPOS</a></p>
+            <!-- DISPONIBLE -->
+            <p><a href="estadios.html">ESTADIOS</a></p>
+            <p><a href="#">PARTIDOS</a></p>
+        </div>
+    </header>
+
+    <!-- ESTRUCTURA DEL BODY -->
+
+    <div class="container">
+        <p class="pres-equipos">LOS DISTINTOS <a id="enlace-texto" href="equipos.html">EQUIPOS</a> ESTÁN REPARTIDOS EN 
+            GRUPOS DIFERENTES, LOS CUALES FORMAN PARTE DE LA PRIMERA RONDA ELIMINATORIA: LA FASE DE GRUPOS.
+        </p>
+        <p class="pres-equipos">LOS 2 PRIMEROS CLASIFICADOS DE CADA GRUPO PASARÁN A LAS FASES FINALES, EN CONCRETO A OCTAVOS DE FINAL. 
+            LUEGO LOS GANADORES DE CADA PARTIDO PASARÁN A OCTAVOS, CUARTOS DE FINAL, SEMIFINALES Y LOS 2 EQUIPOS RESTANTES A LA GRAN
+            FINAL EN EL ESTADIO LUSAIL. TAMBIÉN SE JUGARÁ UN PARTIDO PREVIO A LA FINAL PARA DECIDIR EL 3ᵉʳ Y 4º PUESTO CON LAS 2
+            SELECCIONES QUE PIERDAN LAS SEMIFINALES.
+        </p>
+    </div>
+    <div class="col-img">
+        <img id="grp-img" src="img/grupos.png">
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid justify-content-center">
+        <footer>
+            <div class="row my-5 justify-content-center py-5">
+                <div class="col-11">
+                    <div class="row">
+                        <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                            <h3 class="text-muted mb-md-0 mb-5 bold-text">QATAR 2022</h3>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                            <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html" id="footer-hover">Volver</a></li>
+                                <li>Info</li>
+                                <li>Blog</li>
+                                <li>Portfolio</li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                            <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>SUSCRÍBETE</b></h6>
+                            <form><input id="form-footer" type="email" class="mb-1" placeholder="Correo electrónico">
+                            <button id="form-footer">Enviar</button></form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="col-xl-8 col-md-4 col-sm-4 col-auto  my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                            <p class="social text-muted mb-0 pb-0 bold-text"><span>&#174;</span>NEUMANV All Rights Reserved</small>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                            <h6 class="mt-55 mt-2 text-muted bold-text"><b>FIFA</b></h6><small> <span><i
+                                        class="fa fa-envelope" aria-hidden="true"></i></span>media@fifa.org</small>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3">
+                            <h6 class="text-muted bold-text"><b>AUTHOR</b></h6><small><span><i class="fa fa-envelope"
+                                        aria-hidden="true"></i></span><a id="ghub"
+                                    href="https://github.com/neumanv">@neumanv</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- SCRIPTS FINALES -->
+
+    <script type='text/javascript'>
+
+        //NO CLICK DERECHO
+        document.oncontextmenu = function () {
+            return false
+        }
+
+        //------------------------------------------------------  
+
+        //NO PERMITE COPIAR
+        document.addEventListener("contextmenu", function (event) {
+            event.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (event) {
+            //AL COPIAR EL TEXTO MUESTRA EL SIGUIENTE MENSAJE
+            event.clipboardData.setData("text/plain", "No se puede copiar");
+            event.preventDefault();
+        }, false);
+    </script>
+</body>
+
+</html>

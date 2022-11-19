@@ -26,7 +26,7 @@
     background-color: #9a1032 !important;
 }
 
-.ff-qatar {
+.ff-qatar{
     font-family: "Qatar22";
 }
 
@@ -131,6 +131,11 @@ header {
 
 .card-text :hover {
     color: black;
+}
+
+#enlace{
+    color: black;
+    text-decoration: none;
 }
 
 /* CUENTA ATRÁS */
@@ -349,4 +354,25 @@ img{
 
 .table th{
     font-family: "Qatar22";
+}
+
+/* GRUPOS */
+
+#enlace-texto{
+    font-style: oblique;
+    color: gray;
+}
+
+#grp-img{
+    width: 50%;
+    height: auto;
+}
+
+.col-img{
+    display: flex;
+    justify-content: center;
+}
+
+.col-img img{
+    border: var(--bordes) solid 5px;
 }
