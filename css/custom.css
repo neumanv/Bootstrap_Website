@@ -1,14 +1,16 @@
 /* PERSONALIZADO */
 
-* {
+*{
     user-select: none;
-  }
-  *::selection {
+}
+
+  *::selection{
     background: none;
-  }
-  *::-moz-selection {
+}
+
+  *::-moz-selection{
     background: none;
-  }
+}
 
 @font-face {
     font-family: "Qatar22";
