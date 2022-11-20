@@ -1,8 +1,20 @@
 "use strict"
 
-//-----------------  ----------------------------------------------
+//----------------- USUARIO ----------------------------------------------
 
+function registro(){
 
+    let nombre = document.getElementById("usuario-web").value;
+    let contr = document.getElementById("contr-web").value;
+
+    if(nombre == "" || contr == ""){
+        alert("Es obligatorio rellenar los 2 campos");
+    }
+    
+    if(nombre.length < 5 || nombre.length > 20){
+        alert("El nombre no puede tener menos de 5 cifras ni mas de 20");
+    }
+}
 
 //----------------- CUENTA ATRÁS ---------------------------------------------------
 

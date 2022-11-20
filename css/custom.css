@@ -1,14 +1,14 @@
 /* PERSONALIZADO */
 
-*{
+* {
     user-select: none;
 }
 
-  *::selection{
+*::selection {
     background: none;
 }
 
-  *::-moz-selection{
+*::-moz-selection {
     background: none;
 }
 
@@ -28,7 +28,7 @@
     background-color: #9a1032 !important;
 }
 
-.ff-qatar{
+.ff-qatar {
     font-family: "Qatar22";
 }
 
@@ -89,7 +89,7 @@ header {
     width: 100%;
 }
 
-.ini-ses{
+.ini-ses {
     display: flex;
     justify-content: center;
     border-top: solid var(--bordes) 5px;
@@ -98,7 +98,7 @@ header {
     background-color: var(--principal);
 }
 
-.ini-ses a{
+.ini-ses a {
     color: var(--arena);
     text-decoration: none;
     font-family: var(--bs-body-font-family);
@@ -149,7 +149,7 @@ header {
     color: black;
 }
 
-#enlace{
+#enlace {
     color: black;
     text-decoration: none;
 }
@@ -180,7 +180,7 @@ header {
     font-family: "Qatar22";
 }
 
-.col-lg-4 img{
+.col-lg-4 img {
     display: flex;
     justify-content: center;
 }
@@ -223,25 +223,25 @@ h3 {
     text-decoration: underline;
 }
 
-li a{
+li a {
     color: var(--arena);
     text-decoration: none;
 }
 
-#footer-hover{
+#footer-hover {
     color: var(--arena);
 }
 
-#ghub{
+#ghub {
     text-decoration: none;
     color: var(--arena);
 }
 
-#ghub :hover{
+#ghub :hover {
     text-decoration: underline;
 }
 
-#form-footer{
+#form-footer {
     background-color: var(--arena);
     border: solid var(--bordes);
     border-radius: 7px;
@@ -249,22 +249,22 @@ li a{
 
 /* ESTADIOS */
 
-.wrapper{
+.wrapper {
     width: 100%;
 }
 
-.wrapper .card{
+.wrapper .card {
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
     height: calc(100% - 0px);
 }
 
-.wrapper .card :hover{
+.wrapper .card :hover {
     cursor: pointer;
 }
 
-.wrapper .card img{
+.wrapper .card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -281,7 +281,7 @@ li a{
     font-size: 14px;
 }
 
-.row{
+.row {
     margin-bottom: 1%;
 }
 
@@ -293,12 +293,12 @@ li a{
 
 /* ESTADIOS */
 
-#estadio-importante{
+#estadio-importante {
     color: var(--principal);
     padding-bottom: 10px;
 }
 
-#estadio-principal :hover{
+#estadio-principal :hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -307,7 +307,7 @@ li a{
     width: 100%;
 }
 
-#car-principales :hover{
+#car-principales :hover {
     cursor: pointer;
 }
 
@@ -315,80 +315,180 @@ li a{
 
 /* CARROUSEL */
 
-.demo{
+.demo {
     width: 60%;
     margin: 0 auto
 }
-  
-img{
+
+img {
     width: 100%;
     height: auto;
 }
 
-.carousel-item h5{
+.carousel-item h5 {
     font-family: "Qatar22";
     color: var(--principal);
 }
 
-.arabia h5{
+.arabia h5 {
     color: var(--arena);
 }
 
-#cambio-bandera{
+#cambio-bandera {
     color: var(--principal);
 }
 
-.arabia p{
+.arabia p {
     color: var(--arena);
 }
 
 /* FIN CARROUSEL */
 
-.pres-equipos{
+.pres-equipos {
     font-family: "Qatar22";
     font-size: 20px;
 }
 
 /* VIDEO */
 
-#colc-video{
+#colc-video {
     display: flex;
     justify-content: center;
 }
 
-.video-qatar{
+.video-qatar {
     border: var(--principal) solid 4px;
 }
 
 /* FIN VIDEO */
 
-.table{
+.table {
     justify-content: center;
     text-align: center;
     border-color: var(--arena);
 }
 
-.table th{
+.table th {
     font-family: "Qatar22";
 }
 
 /* GRUPOS */
 
-#enlace-texto{
+#enlace-texto {
     font-style: oblique;
     color: gray;
 }
 
-#grp-img{
+#grp-img {
     width: 50%;
     height: auto;
 }
 
-.col-img{
+.col-img {
     display: flex;
     justify-content: center;
 }
 
-.col-img img{
+.col-img img {
     border: var(--bordes) solid 5px;
+}
+
+/* INICIO SESIÓN */
+
+.vid-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bgvid.back {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.inner {
+    position: absolute;
+}
+
+.inner-container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: calc(50vh - 200px);
+    left: calc(50vw - 200px);
+    overflow: hidden;
+}
+
+.bgvid.inner {
+    top: calc(-50vh + 200px);
+    left: calc(-50vw + 200px);
+    -webkit-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: "Qatar22";
+    color: #fff;
+    background: var(--principal);
+    padding: 30px 0px;
+    border: var(--bordes) solid 5px;
+}
+
+.box h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.box input {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border: 0;
+}
+
+.box input:focus,
+.box input:active,
+.box button:focus,
+.box button:active {
+    outline: none;
+}
+
+.box button {
+    background: white;
+    border: 0;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    width: 330px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.box button:active {
+    background: var(--arena);
+}
+
+.box p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.box p span {
+    cursor: pointer;
+    color: rgb(150, 150, 150);
 }
