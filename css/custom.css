@@ -492,3 +492,8 @@ img {
     cursor: pointer;
     color: rgb(150, 150, 150);
 }
+
+#volver{
+    text-decoration: none;
+    margin-top: 3%;
+}
