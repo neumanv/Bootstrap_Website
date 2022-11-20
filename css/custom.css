@@ -87,7 +87,21 @@ header {
 .banner img {
     height: auto;
     width: 100%;
+}
+
+.ini-ses{
+    display: flex;
+    justify-content: center;
+    border-top: solid var(--bordes) 5px;
     border-bottom: solid var(--bordes) 5px;
+    padding: 5px;
+    background-color: var(--principal);
+}
+
+.ini-ses a{
+    color: var(--arena);
+    text-decoration: none;
+    font-family: var(--bs-body-font-family);
 }
 
 /* BODY */
