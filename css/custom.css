@@ -98,10 +98,15 @@ header {
     background-color: var(--principal);
 }
 
-.ini-ses a {
+.ini-ses a{
     color: var(--arena);
     text-decoration: none;
-    font-family: var(--bs-body-font-family);
+    font-family: "Qatar22";
+}
+
+#inicio a{
+    text-decoration: none;
+    color: black;
 }
 
 /* BODY */
@@ -493,12 +498,13 @@ img {
     color: rgb(150, 150, 150);
 }
 
-#volver{
+.icon-arrow-left2{
     padding: 1%;
     color: black;
+    text-decoration: none;
 }
 
-#volver span{
-    text-decoration: none;
-    
+/* RESGISTRARSE */
+.boton-nueva-cuenta{
+    padding-bottom: 2%;
 }

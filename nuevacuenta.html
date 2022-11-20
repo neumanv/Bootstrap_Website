@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión</title>
+    <title>Registrarse</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/fav_icon.png">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
@@ -12,15 +12,16 @@
     <script src="js/custom.js"></script>
 </head>
 <body>
-    <a href="index.html"><span class="icon-arrow-left2"> Volver</span></a>
+    <a href="iniciosesion.html"><span class="icon-arrow-left2"> Volver</span></a>
     <div class="inner-container">
-        <div class="box">
-            <h1>INICIAR SESIÓN</h1>
+        <div id="" class="box">
+            <h1>REGISTRARSE</h1>
             <form id="inicio">
                 <input id="usuario-web" type="text" placeholder="Usuario"/>
                 <input id="contr-web" type="password" placeholder="Contraseña"/>
-                <button onclick="registro()"><a href="index.html">Conectar</a></button>
-                <p>¿Aún no eres miembro? <a href="nuevacuenta.html">Crea tu cuenta</a></p>
+                <input id="contr-web" type="password" placeholder="Repetir contraseña"/>
+                <button class="boton-nueva-cuenta" onclick="registro()"><a href="index.html">Conectar</a></button>
+                <p>¿Ya tienes una cuenta? <a href="iniciosesion.html">Iniciar sesión</a></p>
             </form>
         </div>
     </div>
