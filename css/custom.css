@@ -494,6 +494,11 @@ img {
 }
 
 #volver{
+    padding: 1%;
+    color: black;
+}
+
+#volver span{
     text-decoration: none;
-    margin-top: 3%;
+    
 }
