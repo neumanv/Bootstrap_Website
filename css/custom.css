@@ -100,6 +100,7 @@ header {
 
 .ini-ses a{
     color: var(--arena);
+    font-size: 22px;
     text-decoration: none;
     font-family: "Qatar22";
 }
@@ -507,4 +508,15 @@ img {
 /* RESGISTRARSE */
 .boton-nueva-cuenta{
     padding-bottom: 2%;
+}
+
+.flecha-volver{
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--principal);
+    font-family: "Qatar22";
+}
+
+.flecha-volver :hover{
+    color: black;
 }

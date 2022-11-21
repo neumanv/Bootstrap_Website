@@ -35,9 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
     let MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
 
-    //===
-    // FUNCTIONS
-    //===
+    //FUNCIONES
 
     function updateCountdown() {
         //Cálculos de tiempo
@@ -48,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
         let REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
 
-        //Render
         SPAN_DAYS.textContent = REMAINING_DAYS;
         SPAN_HOURS.textContent = REMAINING_HOURS;
         SPAN_MINUTES.textContent = REMAINING_MINUTES;

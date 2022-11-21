@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,15 +12,14 @@
     <script src="js/custom.js"></script>
 </head>
 <body>
-    <a href="iniciosesion.html"><span class="icon-arrow-left2"> Volver</span></a>
+    <a class="flecha-volver" href="iniciosesion.html"><span class="icon-arrow-left2"></span>Volver</span></a>
     <div class="inner-container">
         <div id="" class="box">
-            <h1>REGISTRARSE</h1>
+            <h1>REGISTRARSE <span class="icon-user"></span></h1>
             <form id="inicio">
-                <input id="usuario-web" type="text" placeholder="Usuario"/>
+                <input id="usuario-web" type="text" placeholder="Nombre usuario"/>
                 <input id="contr-web" type="password" placeholder="Contraseña"/>
-                <input id="contr-web" type="password" placeholder="Repetir contraseña"/>
-                <button class="boton-nueva-cuenta" onclick="registro()"><a href="index.html">Conectar</a></button>
+                <a href="index.html"><button onclick="registro()">Crear cuenta</button></a>
                 <p>¿Ya tienes una cuenta? <a href="iniciosesion.html">Iniciar sesión</a></p>
             </form>
         </div>
